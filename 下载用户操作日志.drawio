@@ -1,9 +1,101 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.1.0">
   <diagram name="第 1 页" id="TZ_8r-e1da9YArxueHqY">
-    <mxGraphModel>
+    <mxGraphModel dx="925" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-1" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-2" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-3" value="日志模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-4" value="前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="MFVQBIPDRy1NGxk-zNZx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="MFVQBIPDRy1NGxk-zNZx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MFVQBIPDRy1NGxk-zNZx-16" target="MFVQBIPDRy1NGxk-zNZx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="595" y="470" as="sourcePoint" />
+            <mxPoint x="255" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="MFVQBIPDRy1NGxk-zNZx-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="460" as="sourcePoint" />
+            <mxPoint x="340" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-9" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MFVQBIPDRy1NGxk-zNZx-12" target="MFVQBIPDRy1NGxk-zNZx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-24" value="根据查询参数&lt;br&gt;查询用户操作日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MFVQBIPDRy1NGxk-zNZx-10">
+          <mxGeometry x="0.0602" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-12" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="340" y="215" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-13" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="145" y="255" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="MFVQBIPDRy1NGxk-zNZx-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="595" y="470" as="sourcePoint" />
+            <mxPoint x="595" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="MFVQBIPDRy1NGxk-zNZx-16" target="MFVQBIPDRy1NGxk-zNZx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-16" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="505" y="215" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.223;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MFVQBIPDRy1NGxk-zNZx-9" target="MFVQBIPDRy1NGxk-zNZx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-18" value="下载用户操作日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MFVQBIPDRy1NGxk-zNZx-17">
+          <mxGeometry x="-0.0274" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.359;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MFVQBIPDRy1NGxk-zNZx-13" target="MFVQBIPDRy1NGxk-zNZx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-20" value="获取用户操作日志&lt;br&gt;携带查询参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MFVQBIPDRy1NGxk-zNZx-19">
+          <mxGeometry x="-0.0894" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.903;exitY=0.997;exitDx=0;exitDy=0;entryX=0.623;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="MFVQBIPDRy1NGxk-zNZx-12" target="MFVQBIPDRy1NGxk-zNZx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.948;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MFVQBIPDRy1NGxk-zNZx-13" target="MFVQBIPDRy1NGxk-zNZx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MFVQBIPDRy1NGxk-zNZx-23" value="生成.xlsx文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MFVQBIPDRy1NGxk-zNZx-22">
+          <mxGeometry x="-0.0037" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
